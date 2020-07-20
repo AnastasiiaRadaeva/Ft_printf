@@ -20,11 +20,11 @@ void    *ft_free(char **str)
     return NULL;
 }
 
-int     ft_strset(char *s, char c, size_t n)
+int     ft_strset(char *next_str, char c, size_t n)
 {
     while (n != 0)
     {
-        *(s + (n - 1)) = c;
+        *(next_str + (n - 1)) = c;
         n--;
     }
     return (0);

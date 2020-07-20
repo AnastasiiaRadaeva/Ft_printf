@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/kbatwoma/Desktop/ft_printf_clion/ft_i_d_types.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/ft_parser.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/ft_printf.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/libft/ft_atoi.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/libft/ft_itoa.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/libft/ft_strlcpy.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/libft/ft_strlen.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.o"
-  "/Users/kbatwoma/Desktop/ft_printf_clion/main.c" "/Users/kbatwoma/Desktop/ft_printf_clion/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/main.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_i_d_types.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_parser.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_printf.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_atoi.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_itoa.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_strlcpy.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_strlen.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.o"
+  "/Users/kbatwoma/Desktop/git_hub/ft_printf/main.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/main.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

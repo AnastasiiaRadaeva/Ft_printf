@@ -12,8 +12,8 @@ int main()
 	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
 
     printf("\n");
-    i = printf("%11sHello %.i me %.7i World\n", "printf: ", -5, 100);
-    c = ft_printf("ft_printf: Hello %.i me %.7i World\n", -5, 100);
+    i = printf("%11sHello %.i me %.2i World\n", "printf: ", -5, 100);
+    c = ft_printf("ft_printf: Hello %.i me %.2i World\n", -5, 100);
     printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);
 
 

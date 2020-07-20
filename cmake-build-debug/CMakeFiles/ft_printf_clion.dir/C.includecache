@@ -6,13 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/kbatwoma/Desktop/ft_printf_clion/ft_i_d_types.c
-ft_printf.h
-/Users/kbatwoma/Desktop/ft_printf_clion/ft_printf.h
-libft/libft.h
-/Users/kbatwoma/Desktop/ft_printf_clion/libft/libft.h
-
-/Users/kbatwoma/Desktop/ft_printf_clion/ft_printf.h
+/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_printf.h
 stdarg.h
 -
 stdlib.h
@@ -20,9 +14,9 @@ stdlib.h
 unistd.h
 -
 
-/Users/kbatwoma/Desktop/ft_printf_clion/libft/libft.h
-stdlib.h
+/Users/kbatwoma/Desktop/git_hub/ft_printf/main.c
+stdio.h
 -
-unistd.h
--
+ft_printf.h
+/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_printf.h
 

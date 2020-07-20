@@ -29,8 +29,8 @@ static char    *ft_precision(int precision, int number, char **str, \
         next_str[index] = *str[index];
         index++;
     }
-    ft_strset(next_str + index, '0', precision - len_str - 1);
-    ft_strlcpy((next_str + index + (precision - len_str - 1)), *str + index, \
+    ft_strset((next_str + index), '0', precision - len_str);
+    ft_strlcpy((next_str + index + precision - len_str), *str + index, \
                 len_str + 1);
 
     ft_free(str);
