@@ -13,26 +13,44 @@
 #include "libft/libft.h"
 # include <stdio.h>
 
-/*char	*ft_insert(t_parser *flags, va_list arg)
+void    *ft_free(char **str)
 {
-	char	*array;
+    free(*str);
+    str = NULL;
+    return NULL;
+}
 
-	if (flags->type == 'c')
+int     ft_strset(char *s, char c, size_t n)
+{
+    while (n != 0)
+    {
+        *(s + (n - 1)) = c;
+        n--;
+    }
+    return (0);
+}
+
+char	*ft_insert(t_parser *flags, va_list arg)
+{
+	char *array;
+
+	array = NULL;
+	/*if (flags->type == 'c')
 		array = ft_c_type(&flags, arg);
 	if (flags->type == 's')
 		array = ft_s_type(&flags, arg);
 	if (flags->type == 'p')
-		array = ft_p_type(&flags, arg);
+		array = ft_p_type(&flags, arg);*/
 	if (flags->type == 'd' || flags->type == 'i')
-		array = ft_i_d_types(&flags, arg);
-	if (flags->type == 'u')
+		array = ft_i_d_types(flags, arg);
+	/*if (flags->type == 'u')
 		array = ft_u_type(&flags, arg);
 	if (flags->type == 'x' || flags->type == 'X')
 		array = ft_x_X_types(&flags, arg);
 	if (flags->type == '%')
-		array = ft_percent_type(&flags, arg);
+		array = ft_percent_type(&flags, arg);*/
 	return (array);
-}*/
+}
 
 int	ft_printf(const char *str, ...)
 {
@@ -51,7 +69,8 @@ int	ft_printf(const char *str, ...)
 		{
 			str++;
 			ft_parser(str, &flags, arg);
-			insert = ft_insert(&flags, arg); 
+			if ((insert = ft_insert(&flags, arg)) == NULL)
+                return (-1);
 			length_str += write(1, insert, ft_strlen(insert));
 			free(insert);
 			str += flags.length;

@@ -27,7 +27,8 @@ typedef struct	s_parser
 int				ft_printf(const char *str, ...);
 void			ft_parser(const char *str, t_parser *flags, va_list arg);
 char			*ft_insert(t_parser *flags, va_list arg);
-char	*ft_i_d_types(/*t_parser *flags, */va_list arg);
-
+char            *ft_i_d_types(t_parser *flags, va_list arg);
+void            *ft_free(char **str);
+int             ft_strset(char *s, char c, size_t n);
 
 #endif
