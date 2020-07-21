@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_i_d_types.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_parser.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/ft_printf.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_atoi.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_itoa.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_strlcpy.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/libft/ft_strlen.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.o"
-  "/Users/kbatwoma/Desktop/git_hub/ft_printf/main.c" "/Users/kbatwoma/Desktop/git_hub/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/main.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_parser.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_printf.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/libft/ft_atoi.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/libft/ft_itoa.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlcpy.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlen.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/main.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/main.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
