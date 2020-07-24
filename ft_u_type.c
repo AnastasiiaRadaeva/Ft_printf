@@ -52,7 +52,7 @@ static char     *ft_width(char **str, int width, size_t flag)
 
 char	*ft_u_type(t_parser *flags, va_list arg)
 {
-	int number;
+	size_t number;
 	char *str;
 
 	number = va_arg(arg, int);

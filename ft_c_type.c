@@ -12,55 +12,23 @@
 #include "ft_printf.h"
 #include "libft/libft.h"
 
-static void	ft_flag_null(char *next_str, char **str, int width)
-{
-	ft_strlcpy(next_str, *str, ft_strlen(*str) + 1);
-	ft_strset(next_str + ft_strlen(*str), ' ', width - ft_strlen(*str));
-	next_str[width] = '\0';
-}
-
-static char    *ft_precision(int precision, int number, char **str, \
-                                size_t len_str)
-{
-    int     index;
-    char    *next_str;
-
-    index = 0;
-    if (number < 0)
-        precision++;
-    if ((next_str = malloc(sizeof(char) * (precision + 1))) == 0)
-        return (ft_free(str));
-    if (number < 0)
-        next_str[index++] = '-';
-    ft_strset((next_str + index), '0', precision - len_str);
-    ft_strlcpy((next_str + (index + precision - len_str)), *str + index, \
-                len_str + 1);
-    ft_free(str);
-    return (next_str);
-}
-
-static char     *ft_width(char **str, int width, size_t flag, int number)
+static char     *ft_width(char **str, int width, size_t flag)
 {
     char *next_str;
-    int index;
 
-    index = 0;
     if ((next_str = malloc(sizeof(char) * (width + 1))) == 0)
         return (ft_free(str));
     if (flag == 0)
-    	ft_flag_null(next_str, str, width);
+	{
+		ft_strlcpy(next_str, *str, ft_strlen(*str) + 1);
+		ft_strset(next_str + ft_strlen(*str), ' ', width - ft_strlen(*str));
+		next_str[width] = '\0';
+	}
     else
     {
         ft_strlcpy((next_str + (width - ft_strlen(*str))), *str, \
                     ft_strlen(*str) + 1);
-        if (flag == 1)
-            ft_strset(next_str, ' ', width - ft_strlen(*str));
-        else
-        {
-			if (number < 0)
-				next_str[index++] = '-';
-			ft_strset(next_str + index, '0', width - ft_strlen(*str));
-		}
+        ft_strset(next_str, ' ', width - ft_strlen(*str));
     }
     ft_free(str);
     return (next_str);
@@ -68,19 +36,16 @@ static char     *ft_width(char **str, int width, size_t flag, int number)
 
 char	*ft_c_type(t_parser *flags, va_list arg)
 {
-	int		symb;
+	char	symb;
 	char	*str;
 
-	symb = va_arg(arg, char);
-	if (number == 0 && flags->precision == 0)
-		str[0] = '\0';
-	else if ((flags->precision > ft_strlen(str) || (flags->precision == ft_strlen(str) && number < 0)))
-	    if ((str = ft_precision(flags->precision, number, &str, ft_strlen(str))) == NULL)
-            return NULL;
-	if (flags->width <= ft_strlen(str))
-        return (str);
-	else
-        str = ft_width(&str, flags->width, flags->flag, number);
+	symb = va_arg(arg, int);
+	if (!(str = malloc(sizeof(char) * 2)))
+		return (NULL);
+	str[0] = symb;
+	str[1] = '\0';
+	if (flags->width > 1)
+        str = ft_width(&str, flags->width, flags->flag);
 	return (str);
 }
 
