@@ -5,8 +5,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_parser.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_printf.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_x_X_types.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/libft/ft_atoi.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/libft/ft_itoa.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlcpy.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o"

@@ -19,8 +19,8 @@ int main()
 
 	//width
 	printf("\n");
-    i = printf("%11sHello %0-10i me %-10.8i World\n", "printf: ", 5, 100);
-    c = ft_printf("ft_printf: Hello %0-10i me %-10.8i World\n", 5, 100);
+    i = printf("%11sHello %020x me %010X World\n", "printf: ", -5, 100);
+    c = ft_printf("ft_printf: Hello %020x me %010X World\n", -5, 100);
     printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);
 
 	return (0);

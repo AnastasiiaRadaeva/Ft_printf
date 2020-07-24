@@ -81,6 +81,9 @@
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c">
+			<Option target="ft_printf_clion"/>
+		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_parser.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
@@ -88,6 +91,9 @@
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.h">
+			<Option target="ft_printf_clion"/>
+		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_x_X_types.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_atoi.c">

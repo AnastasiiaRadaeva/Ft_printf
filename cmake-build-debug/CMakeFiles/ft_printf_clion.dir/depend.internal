@@ -5,6 +5,9 @@ CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o
  /home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c
  /home/venus/Desktop/Nastya/ft_printf/ft_printf.h
  /home/venus/Desktop/Nastya/ft_printf/libft/libft.h
+CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o
+ /home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c
+ /home/venus/Desktop/Nastya/ft_printf/ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o
  /home/venus/Desktop/Nastya/ft_printf/ft_parser.c
  /home/venus/Desktop/Nastya/ft_printf/ft_printf.h
@@ -12,6 +15,10 @@ CMakeFiles/ft_printf_clion.dir/ft_parser.c.o
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o
  /home/venus/Desktop/Nastya/ft_printf/ft_printf.c
  /home/venus/Desktop/Nastya/ft_printf/ft_printf.h
+ /home/venus/Desktop/Nastya/ft_printf/libft/libft.h
+CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o
+ /home/venus/Desktop/Nastya/ft_printf/ft_printf.h
+ /home/venus/Desktop/Nastya/ft_printf/ft_x_X_types.c
  /home/venus/Desktop/Nastya/ft_printf/libft/libft.h
 CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o
  /home/venus/Desktop/Nastya/ft_printf/libft/ft_atoi.c

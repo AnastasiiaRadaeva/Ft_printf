@@ -1,11 +1,4 @@
-/snap/clion/114/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/venus/Desktop/Nastya/ft_printf
--- The C compiler identification is GNU 7.5.0
--- Check for working C compiler: /usr/bin/cc
--- Check for working C compiler: /usr/bin/cc -- works
--- Detecting C compiler ABI info
--- Detecting C compiler ABI info - done
--- Detecting C compile features
--- Detecting C compile features - done
+/snap/clion/121/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/venus/Desktop/Nastya/ft_printf
 -- Configuring done
 -- Generating done
 -- Build files have been written to: /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug

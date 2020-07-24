@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/114/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/114/bin/cmake/linux/bin/cmake -E remove -f
+RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/114/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/121/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -150,6 +150,33 @@ ft_i_d_types.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.s
 .PHONY : ft_i_d_types.c.s
 
+ft_itoa_x_X.o: ft_itoa_x_X.c.o
+
+.PHONY : ft_itoa_x_X.o
+
+# target to build an object file
+ft_itoa_x_X.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o
+.PHONY : ft_itoa_x_X.c.o
+
+ft_itoa_x_X.i: ft_itoa_x_X.c.i
+
+.PHONY : ft_itoa_x_X.i
+
+# target to preprocess a source file
+ft_itoa_x_X.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.i
+.PHONY : ft_itoa_x_X.c.i
+
+ft_itoa_x_X.s: ft_itoa_x_X.c.s
+
+.PHONY : ft_itoa_x_X.s
+
+# target to generate assembly for a file
+ft_itoa_x_X.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.s
+.PHONY : ft_itoa_x_X.c.s
+
 ft_parser.o: ft_parser.c.o
 
 .PHONY : ft_parser.o
@@ -203,6 +230,33 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
+
+ft_x_X_types.o: ft_x_X_types.c.o
+
+.PHONY : ft_x_X_types.o
+
+# target to build an object file
+ft_x_X_types.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o
+.PHONY : ft_x_X_types.c.o
+
+ft_x_X_types.i: ft_x_X_types.c.i
+
+.PHONY : ft_x_X_types.i
+
+# target to preprocess a source file
+ft_x_X_types.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.i
+.PHONY : ft_x_X_types.c.i
+
+ft_x_X_types.s: ft_x_X_types.c.s
+
+.PHONY : ft_x_X_types.s
+
+# target to generate assembly for a file
+ft_x_X_types.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.s
+.PHONY : ft_x_X_types.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
 
@@ -351,12 +405,18 @@ help:
 	@echo "... ft_i_d_types.o"
 	@echo "... ft_i_d_types.i"
 	@echo "... ft_i_d_types.s"
+	@echo "... ft_itoa_x_X.o"
+	@echo "... ft_itoa_x_X.i"
+	@echo "... ft_itoa_x_X.s"
 	@echo "... ft_parser.o"
 	@echo "... ft_parser.i"
 	@echo "... ft_parser.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_x_X_types.o"
+	@echo "... ft_x_X_types.i"
+	@echo "... ft_x_X_types.s"
 	@echo "... libft/ft_atoi.o"
 	@echo "... libft/ft_atoi.i"
 	@echo "... libft/ft_atoi.s"

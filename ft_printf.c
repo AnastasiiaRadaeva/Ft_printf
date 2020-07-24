@@ -20,11 +20,11 @@ void    *ft_free(char **str)
     return NULL;
 }
 
-int     ft_strset(char *next_str, char c, size_t n)
+int     ft_strset(char *str, char c, size_t n)
 {
     while (n != 0)
     {
-        *(next_str + (n - 1)) = c;
+        *(str + (n - 1)) = c;
         n--;
     }
     return (0);
@@ -44,10 +44,10 @@ char	*ft_insert(t_parser *flags, va_list arg)
 	if (flags->type == 'd' || flags->type == 'i')
 		array = ft_i_d_types(flags, arg);
 	/*if (flags->type == 'u')
-		array = ft_u_type(&flags, arg);
+		array = ft_u_type(&flags, arg);*/
 	if (flags->type == 'x' || flags->type == 'X')
-		array = ft_x_X_types(&flags, arg);
-	if (flags->type == '%')
+		array = ft_x_X_types(flags, arg, flags->type);
+	/*if (flags->type == '%')
 		array = ft_percent_type(&flags, arg);*/
 	return (array);
 }

@@ -5,6 +5,9 @@ CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o: ../ft_i_d_types.c
 CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o: ../libft/libft.h
 
+CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o: ../ft_itoa_x_X.c
+CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o: ../ft_printf.h
+
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_parser.c
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../libft/libft.h
@@ -12,6 +15,10 @@ CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../libft/libft.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../libft/libft.h
+
+CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../ft_printf.h
+CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../ft_x_X_types.c
+CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 

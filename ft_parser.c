@@ -80,6 +80,8 @@ static const char	*precision(size_t *len, t_parser *flags, const char *str,\
 	if (*str == '.')
 	{
 		flags->precision = 0;
+		if (flags->flag != 0 && flags->flag % 2 == 0)
+			flags->flag = 1;
 		str++;
 		(*len)++;
 		if (*str == '*')
