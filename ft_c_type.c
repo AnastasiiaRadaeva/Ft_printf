@@ -1,15 +1,14 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_i_d_types.c                                     :+:      :+:    :+:   */
+/*   ft_c_type.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/07/09 17:16:55 by kbatwoma          #+#    #+#             */
-/*   Updated: 2020/07/13 14:44:16 by kbatwoma         ###   ########.fr       */
+/*   Created: 2020/07/24 22:29:43 by kbatwoma          #+#    #+#             */
+/*   Updated: 2020/07/24 22:30:01 by kbatwoma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 #include "ft_printf.h"
 #include "libft/libft.h"
 
@@ -67,14 +66,12 @@ static char     *ft_width(char **str, int width, size_t flag, int number)
     return (next_str);
 }
 
-char	*ft_i_d_types(t_parser *flags, va_list arg)
+char	*ft_c_type(t_parser *flags, va_list arg)
 {
-	int		number;
+	int		symb;
 	char	*str;
 
-	number = va_arg(arg, int);
-	if ((str = ft_itoa(number)) == NULL)
-        return (NULL);
+	symb = va_arg(arg, char);
 	if (number == 0 && flags->precision == 0)
 		str[0] = '\0';
 	else if ((flags->precision > ft_strlen(str) || (flags->precision == ft_strlen(str) && number < 0)))
@@ -86,3 +83,4 @@ char	*ft_i_d_types(t_parser *flags, va_list arg)
         str = ft_width(&str, flags->width, flags->flag, number);
 	return (str);
 }
+

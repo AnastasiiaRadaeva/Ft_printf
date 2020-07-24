@@ -32,5 +32,7 @@ void            *ft_free(char **str);
 int             ft_strset(char *next_str, char c, size_t n);
 char			*ft_x_X_types(t_parser *flags, va_list arg, char type);
 char			*ft_itoa_x_X(long int n, char type);
+char			*ft_u_type(t_parser *flags, va_list arg);
+char			*ft_c_type(t_parser *flags, va_list arg);
 
 #endif

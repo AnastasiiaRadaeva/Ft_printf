@@ -78,6 +78,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_c_type.c">
+			<Option target="ft_printf_clion"/>
+		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
@@ -91,6 +94,9 @@
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.h">
+			<Option target="ft_printf_clion"/>
+		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_u_type.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_x_X_types.c">

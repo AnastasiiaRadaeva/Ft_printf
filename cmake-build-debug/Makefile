@@ -123,6 +123,33 @@ ft_printf_clion/fast:
 	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/build
 .PHONY : ft_printf_clion/fast
 
+ft_c_type.o: ft_c_type.c.o
+
+.PHONY : ft_c_type.o
+
+# target to build an object file
+ft_c_type.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.o
+.PHONY : ft_c_type.c.o
+
+ft_c_type.i: ft_c_type.c.i
+
+.PHONY : ft_c_type.i
+
+# target to preprocess a source file
+ft_c_type.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.i
+.PHONY : ft_c_type.c.i
+
+ft_c_type.s: ft_c_type.c.s
+
+.PHONY : ft_c_type.s
+
+# target to generate assembly for a file
+ft_c_type.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.s
+.PHONY : ft_c_type.c.s
+
 ft_i_d_types.o: ft_i_d_types.c.o
 
 .PHONY : ft_i_d_types.o
@@ -230,6 +257,33 @@ ft_printf.s: ft_printf.c.s
 ft_printf.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
+
+ft_u_type.o: ft_u_type.c.o
+
+.PHONY : ft_u_type.o
+
+# target to build an object file
+ft_u_type.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o
+.PHONY : ft_u_type.c.o
+
+ft_u_type.i: ft_u_type.c.i
+
+.PHONY : ft_u_type.i
+
+# target to preprocess a source file
+ft_u_type.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.i
+.PHONY : ft_u_type.c.i
+
+ft_u_type.s: ft_u_type.c.s
+
+.PHONY : ft_u_type.s
+
+# target to generate assembly for a file
+ft_u_type.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.s
+.PHONY : ft_u_type.c.s
 
 ft_x_X_types.o: ft_x_X_types.c.o
 
@@ -402,6 +456,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... ft_printf_clion"
+	@echo "... ft_c_type.o"
+	@echo "... ft_c_type.i"
+	@echo "... ft_c_type.s"
 	@echo "... ft_i_d_types.o"
 	@echo "... ft_i_d_types.i"
 	@echo "... ft_i_d_types.s"
@@ -414,6 +471,9 @@ help:
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"
+	@echo "... ft_u_type.o"
+	@echo "... ft_u_type.i"
+	@echo "... ft_u_type.s"
 	@echo "... ft_x_X_types.o"
 	@echo "... ft_x_X_types.i"
 	@echo "... ft_x_X_types.s"

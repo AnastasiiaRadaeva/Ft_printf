@@ -16,6 +16,10 @@ CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../libft/libft.h
 
+CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o: ../ft_printf.h
+CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o: ../ft_u_type.c
+CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o: ../libft/libft.h
+
 CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../ft_x_X_types.c
 CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o: ../libft/libft.h

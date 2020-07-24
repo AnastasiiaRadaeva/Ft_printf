@@ -19,7 +19,7 @@ static char    *ft_precision(int precision, char **str, \
     char    *next_str;
 
     index = 0;
-    if ((next_str = malloc(sizeof(char *) * (precision + 1))) == 0)
+    if ((next_str = malloc(sizeof(char) * (precision + 1))) == 0)
         return (ft_free(str));
     ft_strset((next_str + index), '0', precision - len_str);
     ft_strlcpy((next_str + (index + precision - len_str)), *str + index, \
@@ -32,7 +32,7 @@ static char     *ft_width(char **str, int width, size_t flag)
 {
     char *next_str;
 
-    if ((next_str = malloc(sizeof(char *) * (width + 1))) == 0)
+    if ((next_str = malloc(sizeof(char) * (width + 1))) == 0)
         return (ft_free(str));
     if (flag == 0)
     {

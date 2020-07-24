@@ -18,10 +18,26 @@ int main()
     printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
 
 	//width
-	printf("\n");
+	/*printf("\n");
     i = printf("%11sHello %020x me %010X World\n", "printf: ", -5, 100);
     c = ft_printf("ft_printf: Hello %020x me %010X World\n", -5, 100);
-    printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);
+    printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
+
+	//u
+	/*printf("\n");
+	i = printf("%11sHello %.u me %010u World\n", "printf: ", -5, 100);
+	c = ft_printf("ft_printf: Hello %.u me %010u World\n", -5, 100);
+	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
+
+	//p
+	int b;
+	b = 0;
+	int *p;
+	p = &b;
+	printf("\n");
+	i = printf("%11sHello %035p me %010u World\n", "printf: ", p, 100);
+	c = ft_printf("ft_printf: Hello %.u me %010u World\n", -5, 100);
+	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);
 
 	return (0);
 }
