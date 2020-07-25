@@ -22,6 +22,7 @@ typedef struct	s_parser
 	int			precision;
 	char		type;
 	size_t		length;
+	int 		pr_for_s;
 }				t_parser;
 
 int				ft_printf(const char *str, ...);
@@ -34,5 +35,7 @@ char			*ft_x_X_types(t_parser *flags, va_list arg, char type);
 char			*ft_itoa_x_X(long int n, char type);
 char			*ft_u_type(t_parser *flags, va_list arg);
 char			*ft_c_type(t_parser *flags, va_list arg);
+char			*ft_p_type(t_parser *flags, va_list arg);
+char			*ft_s_type(t_parser *flags, va_list arg);
 
 #endif

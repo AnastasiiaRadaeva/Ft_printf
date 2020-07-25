@@ -12,6 +12,10 @@ CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o: ../libft/libft.h
 CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o: ../ft_itoa_x_X.c
 CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o: ../ft_printf.h
 
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o: ../ft_p_type.c
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o: ../ft_printf.h
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o: ../libft/libft.h
+
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_parser.c
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../libft/libft.h
@@ -19,6 +23,10 @@ CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../libft/libft.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../libft/libft.h
+
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o: ../ft_printf.h
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o: ../ft_s_type.c
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o: ../ft_u_type.c
@@ -32,6 +40,9 @@ CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o: ../libft/ft_atoi.c
 
 CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o: ../libft/ft_itoa.c
 CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o: ../libft/libft.h
+
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o: ../libft/ft_strlcpy.c
 CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o: ../libft/libft.h

@@ -79,6 +79,7 @@ static const char	*precision(size_t *len, t_parser *flags, const char *str,\
 	flags->precision = 1;
 	if (*str == '.')
 	{
+		flags->pr_for_s = 1;
 		flags->precision = 0;
 		if (flags->flag != 0 && flags->flag % 2 == 0)
 			flags->flag = 1;
@@ -103,6 +104,7 @@ void				ft_parser(const char *str, t_parser *flags, va_list arg)
 	size_t	len;
 
 	len = 0;
+	flags->pr_for_s = 0;
 	str = flag(&len, flags, str);
 	str = width(&len, flags, str, arg);
 	str = precision(&len, flags, str, arg);

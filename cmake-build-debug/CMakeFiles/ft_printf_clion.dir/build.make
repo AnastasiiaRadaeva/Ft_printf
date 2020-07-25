@@ -213,6 +213,45 @@ CMakeFiles/ft_printf_clion.dir/ft_c_type.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf_clion.dir/ft_c_type.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/venus/Desktop/Nastya/ft_printf/ft_c_type.c -o CMakeFiles/ft_printf_clion.dir/ft_c_type.c.s
 
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o: CMakeFiles/ft_printf_clion.dir/flags.make
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o: ../ft_p_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o   -c /home/venus/Desktop/Nastya/ft_printf/ft_p_type.c
+
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf_clion.dir/ft_p_type.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/venus/Desktop/Nastya/ft_printf/ft_p_type.c > CMakeFiles/ft_printf_clion.dir/ft_p_type.c.i
+
+CMakeFiles/ft_printf_clion.dir/ft_p_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf_clion.dir/ft_p_type.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/venus/Desktop/Nastya/ft_printf/ft_p_type.c -o CMakeFiles/ft_printf_clion.dir/ft_p_type.c.s
+
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o: CMakeFiles/ft_printf_clion.dir/flags.make
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o: ../ft_s_type.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o   -c /home/venus/Desktop/Nastya/ft_printf/ft_s_type.c
+
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf_clion.dir/ft_s_type.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/venus/Desktop/Nastya/ft_printf/ft_s_type.c > CMakeFiles/ft_printf_clion.dir/ft_s_type.c.i
+
+CMakeFiles/ft_printf_clion.dir/ft_s_type.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf_clion.dir/ft_s_type.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/venus/Desktop/Nastya/ft_printf/ft_s_type.c -o CMakeFiles/ft_printf_clion.dir/ft_s_type.c.s
+
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o: CMakeFiles/ft_printf_clion.dir/flags.make
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o: ../libft/ft_strdup.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o   -c /home/venus/Desktop/Nastya/ft_printf/libft/ft_strdup.c
+
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/venus/Desktop/Nastya/ft_printf/libft/ft_strdup.c > CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.i
+
+CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/venus/Desktop/Nastya/ft_printf/libft/ft_strdup.c -o CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.s
+
 # Object files for target ft_printf_clion
 ft_printf_clion_OBJECTS = \
 "CMakeFiles/ft_printf_clion.dir/main.c.o" \
@@ -226,7 +265,10 @@ ft_printf_clion_OBJECTS = \
 "CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o" \
 "CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o" \
 "CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o" \
-"CMakeFiles/ft_printf_clion.dir/ft_c_type.c.o"
+"CMakeFiles/ft_printf_clion.dir/ft_c_type.c.o" \
+"CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o" \
+"CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o" \
+"CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o"
 
 # External object files for target ft_printf_clion
 ft_printf_clion_EXTERNAL_OBJECTS =
@@ -243,9 +285,12 @@ ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o
 ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o
 ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o
 ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_c_type.c.o
+ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o
+ft_printf_clion: CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o
+ft_printf_clion: CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o
 ft_printf_clion: CMakeFiles/ft_printf_clion.dir/build.make
 ft_printf_clion: CMakeFiles/ft_printf_clion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking C executable ft_printf_clion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable ft_printf_clion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf_clion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

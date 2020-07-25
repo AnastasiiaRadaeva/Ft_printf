@@ -40,10 +40,16 @@ int main()
 	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
 
 	//c
-	printf("\n");
+	/*printf("\n");
 	i = printf("%11sHello %-.7c me %-010c World\n", "printf: ", NULL, 'f');
 	c = ft_printf("ft_printf: Hello %-.7c me %-010c World\n", NULL, 'f');
-	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);
+	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
+
+	//s
+	/*printf("\n");
+	i = printf("%11sHello %20s me %-15.4s World\n", "printf: ", NULL, "");
+	c = ft_printf("ft_printf: Hello %20s me %-15.4s World\n", NULL, "");
+	printf("\nLength printf: %i\nLength ft_: %i\n\n", i, c);*/
 
 	return (0);
 }

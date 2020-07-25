@@ -87,6 +87,9 @@
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_p_type.c">
+			<Option target="ft_printf_clion"/>
+		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_parser.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
@@ -94,6 +97,9 @@
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.h">
+			<Option target="ft_printf_clion"/>
+		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_s_type.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_u_type.c">
@@ -106,6 +112,9 @@
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_itoa.c">
+			<Option target="ft_printf_clion"/>
+		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_strdup.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlcpy.c">

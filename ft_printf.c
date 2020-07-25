@@ -37,10 +37,10 @@ char	*ft_insert(t_parser *flags, va_list arg)
 	array = NULL;
 	if (flags->type == 'c')
 		array = ft_c_type(flags, arg);
-	/*if (flags->type == 's')
-		array = ft_s_type(&flags, arg);
-	if (flags->type == 'p')
-		array = ft_p_type(&flags, arg);*/
+	if (flags->type == 's')
+		array = ft_s_type(flags, arg);
+	/*if (flags->type == 'p')
+		array = ft_p_type(flags, arg);*/
 	if (flags->type == 'd' || flags->type == 'i')
 		array = ft_i_d_types(flags, arg);
 	if (flags->type == 'u')
