@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o"
   "CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o"
   "CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
+  "CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o"
   "CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
   "CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o"
   "CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o"

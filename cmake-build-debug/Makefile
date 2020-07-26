@@ -258,6 +258,33 @@ ft_parser.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_parser.c.s
 .PHONY : ft_parser.c.s
 
+ft_percent_type.o: ft_percent_type.c.o
+
+.PHONY : ft_percent_type.o
+
+# target to build an object file
+ft_percent_type.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o
+.PHONY : ft_percent_type.c.o
+
+ft_percent_type.i: ft_percent_type.c.i
+
+.PHONY : ft_percent_type.i
+
+# target to preprocess a source file
+ft_percent_type.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.i
+.PHONY : ft_percent_type.c.i
+
+ft_percent_type.s: ft_percent_type.c.s
+
+.PHONY : ft_percent_type.s
+
+# target to generate assembly for a file
+ft_percent_type.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.s
+.PHONY : ft_percent_type.c.s
+
 ft_printf.o: ft_printf.c.o
 
 .PHONY : ft_printf.o
@@ -552,6 +579,9 @@ help:
 	@echo "... ft_parser.o"
 	@echo "... ft_parser.i"
 	@echo "... ft_parser.s"
+	@echo "... ft_percent_type.o"
+	@echo "... ft_percent_type.i"
+	@echo "... ft_percent_type.s"
 	@echo "... ft_printf.o"
 	@echo "... ft_printf.i"
 	@echo "... ft_printf.s"

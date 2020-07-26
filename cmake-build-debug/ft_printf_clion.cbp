@@ -93,6 +93,9 @@
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_parser.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>
+		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_percent_type.c">
+			<Option target="ft_printf_clion"/>
+		</Unit>
 		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.c">
 			<Option target="ft_printf_clion"/>
 		</Unit>

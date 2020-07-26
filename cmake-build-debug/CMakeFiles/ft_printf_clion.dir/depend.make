@@ -20,6 +20,10 @@ CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_parser.c
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_parser.c.o: ../libft/libft.h
 
+CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o: ../ft_percent_type.c
+CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o: ../ft_printf.h
+CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o: ../libft/libft.h
+
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.c
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../ft_printf.h
 CMakeFiles/ft_printf_clion.dir/ft_printf.c.o: ../libft/libft.h

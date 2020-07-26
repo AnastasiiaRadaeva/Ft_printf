@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_p_type.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_parser.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_parser.c.o"
+  "/home/venus/Desktop/Nastya/ft_printf/ft_percent_type.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_printf.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_printf.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_s_type.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o"
   "/home/venus/Desktop/Nastya/ft_printf/ft_u_type.c" "/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o"

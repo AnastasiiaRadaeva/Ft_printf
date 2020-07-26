@@ -39,16 +39,16 @@ char	*ft_insert(t_parser *flags, va_list arg)
 		array = ft_c_type(flags, arg);
 	if (flags->type == 's')
 		array = ft_s_type(flags, arg);
-	/*if (flags->type == 'p')
-		array = ft_p_type(flags, arg);*/
+	if (flags->type == 'p')
+		array = ft_p_type(flags, arg);
 	if (flags->type == 'd' || flags->type == 'i')
 		array = ft_i_d_types(flags, arg);
 	if (flags->type == 'u')
 		array = ft_u_type(flags, arg);
 	if (flags->type == 'x' || flags->type == 'X')
 		array = ft_x_X_types(flags, arg, flags->type);
-	/*if (flags->type == '%')
-		array = ft_percent_type(&flags, arg);*/
+	if (flags->type == '%')
+		array = ft_percent_type();
 	return (array);
 }
 
