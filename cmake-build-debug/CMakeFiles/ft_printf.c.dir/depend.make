@@ -54,6 +54,6 @@ CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.o: ../libft/libft.h
 CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.o: ../libft/ft_strlen.c
 CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.o: ../libft/libft.h
 
-CMakeFiles/ft_printf.c.dir/main.c.o: ../ft_printf.h
-CMakeFiles/ft_printf.c.dir/main.c.o: ../main.c
+CMakeFiles/ft_printf.c.dir/main_chemelin.c.o: ../ft_printf.h
+CMakeFiles/ft_printf.c.dir/main_chemelin.c.o: ../main_chemelin.c
 

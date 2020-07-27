@@ -6,6 +6,12 @@
 
 #IncludeRegexTransform: 
 
+/Users/kbatwoma/Desktop/ft_printf/ft_c_type.c
+ft_printf.h
+/Users/kbatwoma/Desktop/ft_printf/ft_printf.h
+libft/libft.h
+/Users/kbatwoma/Desktop/ft_printf/libft/libft.h
+
 /Users/kbatwoma/Desktop/ft_printf/ft_printf.h
 stdarg.h
 -
@@ -14,11 +20,9 @@ stdlib.h
 unistd.h
 -
 
-/Users/kbatwoma/Desktop/ft_printf/main.c
-ft_printf.h
-/Users/kbatwoma/Desktop/ft_printf/ft_printf.h
-stdio.h
+/Users/kbatwoma/Desktop/ft_printf/libft/libft.h
+stdlib.h
 -
-limits.h
+unistd.h
 -
 

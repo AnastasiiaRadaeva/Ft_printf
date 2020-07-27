@@ -38,13 +38,13 @@ static char     *ft_width(char **str, int width, size_t flag, int len)
 
 char	*ft_c_type(t_parser *flags, va_list arg)
 {
-	char	symb;
+	unsigned char	symb;
 	char	*str;
 	int     len;
 
 	len = 1;
-	symb = va_arg(arg, int);
-	if (symb == '\0')
+	symb = (unsigned char)va_arg(arg, int);
+	if (symb == '\0' || symb == NULL)
 	    len = 0;
 	if (!(str = malloc(sizeof(char) * 2)))
 		return (NULL);

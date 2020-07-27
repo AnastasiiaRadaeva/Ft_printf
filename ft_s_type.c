@@ -40,7 +40,10 @@ static char     *ft_width(char **str, int width, size_t flag)
 	{
 		ft_strlcpy((next_str + (width - ft_strlen(*str))), *str, \
                     ft_strlen(*str) + 1);
-        ft_strset(next_str, ' ', width - ft_strlen(*str));
+        if (flag == 1)
+            ft_strset(next_str, ' ', width - ft_strlen(*str));
+        else
+            ft_strset(next_str, '0', width - ft_strlen(*str));
 	}
 	ft_free(str);
 	return (next_str);
