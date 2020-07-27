@@ -6,19 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/venus/Desktop/Nastya/ft_printf/ft_p_type.c
-ft_printf.h
-/home/venus/Desktop/Nastya/ft_printf/ft_printf.h
-libft/libft.h
+/home/venus/Desktop/Nastya/ft_printf/libft/ft_itoa.c
+libft.h
 /home/venus/Desktop/Nastya/ft_printf/libft/libft.h
-
-/home/venus/Desktop/Nastya/ft_printf/ft_printf.h
-stdarg.h
--
-stdlib.h
--
-unistd.h
--
 
 /home/venus/Desktop/Nastya/ft_printf/libft/libft.h
 stdlib.h

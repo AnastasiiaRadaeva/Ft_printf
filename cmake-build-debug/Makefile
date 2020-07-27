@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ft_printf_clion
+# Target rules for targets named ft_printf.c
 
 # Build rule for target.
-ft_printf_clion: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ft_printf_clion
-.PHONY : ft_printf_clion
+ft_printf.c: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ft_printf.c
+.PHONY : ft_printf.c
 
 # fast build rule for target.
-ft_printf_clion/fast:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/build
-.PHONY : ft_printf_clion/fast
+ft_printf.c/fast:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/build
+.PHONY : ft_printf.c/fast
 
 ft_c_type.o: ft_c_type.c.o
 
@@ -129,7 +129,7 @@ ft_c_type.o: ft_c_type.c.o
 
 # target to build an object file
 ft_c_type.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_c_type.c.o
 .PHONY : ft_c_type.c.o
 
 ft_c_type.i: ft_c_type.c.i
@@ -138,7 +138,7 @@ ft_c_type.i: ft_c_type.c.i
 
 # target to preprocess a source file
 ft_c_type.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_c_type.c.i
 .PHONY : ft_c_type.c.i
 
 ft_c_type.s: ft_c_type.c.s
@@ -147,7 +147,7 @@ ft_c_type.s: ft_c_type.c.s
 
 # target to generate assembly for a file
 ft_c_type.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_c_type.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_c_type.c.s
 .PHONY : ft_c_type.c.s
 
 ft_i_d_types.o: ft_i_d_types.c.o
@@ -156,7 +156,7 @@ ft_i_d_types.o: ft_i_d_types.c.o
 
 # target to build an object file
 ft_i_d_types.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o
 .PHONY : ft_i_d_types.c.o
 
 ft_i_d_types.i: ft_i_d_types.c.i
@@ -165,7 +165,7 @@ ft_i_d_types.i: ft_i_d_types.c.i
 
 # target to preprocess a source file
 ft_i_d_types.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.i
 .PHONY : ft_i_d_types.c.i
 
 ft_i_d_types.s: ft_i_d_types.c.s
@@ -174,7 +174,7 @@ ft_i_d_types.s: ft_i_d_types.c.s
 
 # target to generate assembly for a file
 ft_i_d_types.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_i_d_types.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.s
 .PHONY : ft_i_d_types.c.s
 
 ft_itoa_x_X.o: ft_itoa_x_X.c.o
@@ -183,7 +183,7 @@ ft_itoa_x_X.o: ft_itoa_x_X.c.o
 
 # target to build an object file
 ft_itoa_x_X.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o
 .PHONY : ft_itoa_x_X.c.o
 
 ft_itoa_x_X.i: ft_itoa_x_X.c.i
@@ -192,7 +192,7 @@ ft_itoa_x_X.i: ft_itoa_x_X.c.i
 
 # target to preprocess a source file
 ft_itoa_x_X.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.i
 .PHONY : ft_itoa_x_X.c.i
 
 ft_itoa_x_X.s: ft_itoa_x_X.c.s
@@ -201,7 +201,7 @@ ft_itoa_x_X.s: ft_itoa_x_X.c.s
 
 # target to generate assembly for a file
 ft_itoa_x_X.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_itoa_x_X.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.s
 .PHONY : ft_itoa_x_X.c.s
 
 ft_p_type.o: ft_p_type.c.o
@@ -210,7 +210,7 @@ ft_p_type.o: ft_p_type.c.o
 
 # target to build an object file
 ft_p_type.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_p_type.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_p_type.c.o
 .PHONY : ft_p_type.c.o
 
 ft_p_type.i: ft_p_type.c.i
@@ -219,7 +219,7 @@ ft_p_type.i: ft_p_type.c.i
 
 # target to preprocess a source file
 ft_p_type.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_p_type.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_p_type.c.i
 .PHONY : ft_p_type.c.i
 
 ft_p_type.s: ft_p_type.c.s
@@ -228,7 +228,7 @@ ft_p_type.s: ft_p_type.c.s
 
 # target to generate assembly for a file
 ft_p_type.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_p_type.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_p_type.c.s
 .PHONY : ft_p_type.c.s
 
 ft_parser.o: ft_parser.c.o
@@ -237,7 +237,7 @@ ft_parser.o: ft_parser.c.o
 
 # target to build an object file
 ft_parser.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_parser.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_parser.c.o
 .PHONY : ft_parser.c.o
 
 ft_parser.i: ft_parser.c.i
@@ -246,7 +246,7 @@ ft_parser.i: ft_parser.c.i
 
 # target to preprocess a source file
 ft_parser.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_parser.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_parser.c.i
 .PHONY : ft_parser.c.i
 
 ft_parser.s: ft_parser.c.s
@@ -255,7 +255,7 @@ ft_parser.s: ft_parser.c.s
 
 # target to generate assembly for a file
 ft_parser.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_parser.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_parser.c.s
 .PHONY : ft_parser.c.s
 
 ft_percent_type.o: ft_percent_type.c.o
@@ -264,7 +264,7 @@ ft_percent_type.o: ft_percent_type.c.o
 
 # target to build an object file
 ft_percent_type.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_percent_type.c.o
 .PHONY : ft_percent_type.c.o
 
 ft_percent_type.i: ft_percent_type.c.i
@@ -273,7 +273,7 @@ ft_percent_type.i: ft_percent_type.c.i
 
 # target to preprocess a source file
 ft_percent_type.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_percent_type.c.i
 .PHONY : ft_percent_type.c.i
 
 ft_percent_type.s: ft_percent_type.c.s
@@ -282,7 +282,7 @@ ft_percent_type.s: ft_percent_type.c.s
 
 # target to generate assembly for a file
 ft_percent_type.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_percent_type.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_percent_type.c.s
 .PHONY : ft_percent_type.c.s
 
 ft_printf.o: ft_printf.c.o
@@ -291,7 +291,7 @@ ft_printf.o: ft_printf.c.o
 
 # target to build an object file
 ft_printf.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_printf.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_printf.c.o
 .PHONY : ft_printf.c.o
 
 ft_printf.i: ft_printf.c.i
@@ -300,7 +300,7 @@ ft_printf.i: ft_printf.c.i
 
 # target to preprocess a source file
 ft_printf.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_printf.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_printf.c.i
 .PHONY : ft_printf.c.i
 
 ft_printf.s: ft_printf.c.s
@@ -309,7 +309,7 @@ ft_printf.s: ft_printf.c.s
 
 # target to generate assembly for a file
 ft_printf.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_printf.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_printf.c.s
 .PHONY : ft_printf.c.s
 
 ft_s_type.o: ft_s_type.c.o
@@ -318,7 +318,7 @@ ft_s_type.o: ft_s_type.c.o
 
 # target to build an object file
 ft_s_type.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_s_type.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_s_type.c.o
 .PHONY : ft_s_type.c.o
 
 ft_s_type.i: ft_s_type.c.i
@@ -327,7 +327,7 @@ ft_s_type.i: ft_s_type.c.i
 
 # target to preprocess a source file
 ft_s_type.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_s_type.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_s_type.c.i
 .PHONY : ft_s_type.c.i
 
 ft_s_type.s: ft_s_type.c.s
@@ -336,7 +336,7 @@ ft_s_type.s: ft_s_type.c.s
 
 # target to generate assembly for a file
 ft_s_type.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_s_type.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_s_type.c.s
 .PHONY : ft_s_type.c.s
 
 ft_u_type.o: ft_u_type.c.o
@@ -345,7 +345,7 @@ ft_u_type.o: ft_u_type.c.o
 
 # target to build an object file
 ft_u_type.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_u_type.c.o
 .PHONY : ft_u_type.c.o
 
 ft_u_type.i: ft_u_type.c.i
@@ -354,7 +354,7 @@ ft_u_type.i: ft_u_type.c.i
 
 # target to preprocess a source file
 ft_u_type.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_u_type.c.i
 .PHONY : ft_u_type.c.i
 
 ft_u_type.s: ft_u_type.c.s
@@ -363,7 +363,7 @@ ft_u_type.s: ft_u_type.c.s
 
 # target to generate assembly for a file
 ft_u_type.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_u_type.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_u_type.c.s
 .PHONY : ft_u_type.c.s
 
 ft_x_X_types.o: ft_x_X_types.c.o
@@ -372,7 +372,7 @@ ft_x_X_types.o: ft_x_X_types.c.o
 
 # target to build an object file
 ft_x_X_types.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_x_X_types.c.o
 .PHONY : ft_x_X_types.c.o
 
 ft_x_X_types.i: ft_x_X_types.c.i
@@ -381,7 +381,7 @@ ft_x_X_types.i: ft_x_X_types.c.i
 
 # target to preprocess a source file
 ft_x_X_types.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_x_X_types.c.i
 .PHONY : ft_x_X_types.c.i
 
 ft_x_X_types.s: ft_x_X_types.c.s
@@ -390,7 +390,7 @@ ft_x_X_types.s: ft_x_X_types.c.s
 
 # target to generate assembly for a file
 ft_x_X_types.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/ft_x_X_types.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_x_X_types.c.s
 .PHONY : ft_x_X_types.c.s
 
 libft/ft_atoi.o: libft/ft_atoi.c.o
@@ -399,7 +399,7 @@ libft/ft_atoi.o: libft/ft_atoi.c.o
 
 # target to build an object file
 libft/ft_atoi.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_atoi.c.o
 .PHONY : libft/ft_atoi.c.o
 
 libft/ft_atoi.i: libft/ft_atoi.c.i
@@ -408,7 +408,7 @@ libft/ft_atoi.i: libft/ft_atoi.c.i
 
 # target to preprocess a source file
 libft/ft_atoi.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_atoi.c.i
 .PHONY : libft/ft_atoi.c.i
 
 libft/ft_atoi.s: libft/ft_atoi.c.s
@@ -417,7 +417,7 @@ libft/ft_atoi.s: libft/ft_atoi.c.s
 
 # target to generate assembly for a file
 libft/ft_atoi.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_atoi.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_atoi.c.s
 .PHONY : libft/ft_atoi.c.s
 
 libft/ft_itoa.o: libft/ft_itoa.c.o
@@ -426,7 +426,7 @@ libft/ft_itoa.o: libft/ft_itoa.c.o
 
 # target to build an object file
 libft/ft_itoa.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_itoa.c.o
 .PHONY : libft/ft_itoa.c.o
 
 libft/ft_itoa.i: libft/ft_itoa.c.i
@@ -435,7 +435,7 @@ libft/ft_itoa.i: libft/ft_itoa.c.i
 
 # target to preprocess a source file
 libft/ft_itoa.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_itoa.c.i
 .PHONY : libft/ft_itoa.c.i
 
 libft/ft_itoa.s: libft/ft_itoa.c.s
@@ -444,7 +444,7 @@ libft/ft_itoa.s: libft/ft_itoa.c.s
 
 # target to generate assembly for a file
 libft/ft_itoa.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_itoa.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_itoa.c.s
 .PHONY : libft/ft_itoa.c.s
 
 libft/ft_strdup.o: libft/ft_strdup.c.o
@@ -453,7 +453,7 @@ libft/ft_strdup.o: libft/ft_strdup.c.o
 
 # target to build an object file
 libft/ft_strdup.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.o
 .PHONY : libft/ft_strdup.c.o
 
 libft/ft_strdup.i: libft/ft_strdup.c.i
@@ -462,7 +462,7 @@ libft/ft_strdup.i: libft/ft_strdup.c.i
 
 # target to preprocess a source file
 libft/ft_strdup.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.i
 .PHONY : libft/ft_strdup.c.i
 
 libft/ft_strdup.s: libft/ft_strdup.c.s
@@ -471,7 +471,7 @@ libft/ft_strdup.s: libft/ft_strdup.c.s
 
 # target to generate assembly for a file
 libft/ft_strdup.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strdup.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.s
 .PHONY : libft/ft_strdup.c.s
 
 libft/ft_strlcpy.o: libft/ft_strlcpy.c.o
@@ -480,7 +480,7 @@ libft/ft_strlcpy.o: libft/ft_strlcpy.c.o
 
 # target to build an object file
 libft/ft_strlcpy.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.o
 .PHONY : libft/ft_strlcpy.c.o
 
 libft/ft_strlcpy.i: libft/ft_strlcpy.c.i
@@ -489,7 +489,7 @@ libft/ft_strlcpy.i: libft/ft_strlcpy.c.i
 
 # target to preprocess a source file
 libft/ft_strlcpy.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.i
 .PHONY : libft/ft_strlcpy.c.i
 
 libft/ft_strlcpy.s: libft/ft_strlcpy.c.s
@@ -498,7 +498,7 @@ libft/ft_strlcpy.s: libft/ft_strlcpy.c.s
 
 # target to generate assembly for a file
 libft/ft_strlcpy.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlcpy.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.s
 .PHONY : libft/ft_strlcpy.c.s
 
 libft/ft_strlen.o: libft/ft_strlen.c.o
@@ -507,7 +507,7 @@ libft/ft_strlen.o: libft/ft_strlen.c.o
 
 # target to build an object file
 libft/ft_strlen.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.o
 .PHONY : libft/ft_strlen.c.o
 
 libft/ft_strlen.i: libft/ft_strlen.c.i
@@ -516,7 +516,7 @@ libft/ft_strlen.i: libft/ft_strlen.c.i
 
 # target to preprocess a source file
 libft/ft_strlen.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.i
 .PHONY : libft/ft_strlen.c.i
 
 libft/ft_strlen.s: libft/ft_strlen.c.s
@@ -525,7 +525,7 @@ libft/ft_strlen.s: libft/ft_strlen.c.s
 
 # target to generate assembly for a file
 libft/ft_strlen.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/libft/ft_strlen.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.s
 .PHONY : libft/ft_strlen.c.s
 
 main.o: main.c.o
@@ -534,7 +534,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/main.c.o
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -543,7 +543,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/main.c.i
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -552,7 +552,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf_clion.dir/build.make CMakeFiles/ft_printf_clion.dir/main.c.s
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -561,9 +561,9 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ft_printf_clion"
+	@echo "... edit_cache"
+	@echo "... ft_printf.c"
 	@echo "... ft_c_type.o"
 	@echo "... ft_c_type.i"
 	@echo "... ft_c_type.s"

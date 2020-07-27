@@ -52,10 +52,10 @@ static char     *ft_width(char **str, int width, size_t flag)
 
 char	*ft_u_type(t_parser *flags, va_list arg)
 {
-	size_t number;
+	unsigned long int number;
 	char *str;
 
-	number = va_arg(arg, int);
+	number = va_arg(arg, long int);
 	if (number < 0)
 		return (NULL);
 	if ((str = ft_itoa(number)) == NULL)

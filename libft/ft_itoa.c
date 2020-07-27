@@ -12,20 +12,15 @@
 
 #include "libft.h"
 
-static int	ft_size(int n)
+static int	ft_size(long int n)
 {
 	int		count;
-	int		copy;
+	long int		copy;
 
 	count = 1;
 	if (n < 0)
 	{
 		count++;
-		if (n == -2147483648)
-		{
-			count++;
-			n = -147483648;
-		}
 		n = -n;
 	}
 	copy = n;
@@ -37,7 +32,7 @@ static int	ft_size(int n)
 	return (count);
 }
 
-static int	ft_min(int n, char *array)
+static long int	ft_min(long int n, char *array)
 {
 	int		i;
 
@@ -45,18 +40,12 @@ static int	ft_min(int n, char *array)
 	if (n < 0)
 	{
 		array[i] = '-';
-		if (n == -2147483648)
-		{
-			i++;
-			array[i] = '2';
-			n = -147483648;
-		}
 		n = -n;
 	}
 	return (n);
 }
 
-char		*ft_itoa(int n)
+char		*ft_itoa(long int n)
 {
 	char	*array;
 	int		size;
