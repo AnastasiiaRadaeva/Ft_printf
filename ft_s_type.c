@@ -53,12 +53,7 @@ char	*ft_s_type(t_parser *flags, va_list arg)
 
 	input = va_arg(arg, char *);
 	if (input == NULL)
-	{
-		if (flags->precision < 6 && flags->pr_for_s == 1)
-			input = "";
-		else
 			input = "(null)";
-	}
 	if ((str = ft_strdup(input)) == 0)
 		return (NULL);
 	if (flags->precision < ft_strlen(str) && flags->pr_for_s == 1)

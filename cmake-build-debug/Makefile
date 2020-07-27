@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/121/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/E8FC0BA8-0CF1-49CA-AB3D-E83D625BCD4F/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/121/bin/cmake/linux/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/E8FC0BA8-0CF1-49CA-AB3D-E83D625BCD4F/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/venus/Desktop/Nastya/ft_printf
+CMAKE_SOURCE_DIR = /Users/kbatwoma/Desktop/ft_printf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/kbatwoma/Desktop/ft_printf/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/121/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/E8FC0BA8-0CF1-49CA-AB3D-E83D625BCD4F/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/121/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/E8FC0BA8-0CF1-49CA-AB3D-E83D625BCD4F/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles /Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -528,32 +528,32 @@ libft/ft_strlen.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.s
 .PHONY : libft/ft_strlen.c.s
 
-main.o: main.c.o
+main_chemelin.o: main_chemelin.c.o
 
-.PHONY : main.o
+.PHONY : main_chemelin.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.o
-.PHONY : main.c.o
+main_chemelin.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main_chemelin.c.o
+.PHONY : main_chemelin.c.o
 
-main.i: main.c.i
+main_chemelin.i: main_chemelin.c.i
 
-.PHONY : main.i
+.PHONY : main_chemelin.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.i
-.PHONY : main.c.i
+main_chemelin.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main_chemelin.c.i
+.PHONY : main_chemelin.c.i
 
-main.s: main.c.s
+main_chemelin.s: main_chemelin.c.s
 
-.PHONY : main.s
+.PHONY : main_chemelin.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main.c.s
-.PHONY : main.c.s
+main_chemelin.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/main_chemelin.c.s
+.PHONY : main_chemelin.c.s
 
 # Help Target
 help:
@@ -609,9 +609,9 @@ help:
 	@echo "... libft/ft_strlen.o"
 	@echo "... libft/ft_strlen.i"
 	@echo "... libft/ft_strlen.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main_chemelin.o"
+	@echo "... main_chemelin.i"
+	@echo "... main_chemelin.s"
 .PHONY : help
 
 

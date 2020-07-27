@@ -55,10 +55,12 @@ static char     *ft_width(char **str, int width, size_t flag)
 
 char	*ft_x_X_types(t_parser *flags, va_list arg, char type)
 {
-	int		number;
+	long int		number;
 	char	*str;
+    int     flag;
 
-	number = va_arg(arg, long int);
+    flag = flags->flag;
+	number = (unsigned int) va_arg(arg, long int);
 	if ((str = ft_itoa_x_X(number, type)) == NULL)
         return (NULL);
 	if (number == 0 && flags->precision == 0)
@@ -69,6 +71,10 @@ char	*ft_x_X_types(t_parser *flags, va_list arg, char type)
 	if (flags->width <= ft_strlen(str))
         return (str);
 	else
-        str = ft_width(&str, flags->width, flags->flag);
+    {
+        if (flags->pr_for_s == 1 && flags->width > flags->precision && flags->flag != 0)
+            flag = 1;
+        str = ft_width(&str, flags->width, flag);
+    }
 	return (str);
 }

@@ -8,128 +8,128 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug"/>
+				<Option working_dir="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_printf.c">
-				<Option output="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/ft_printf.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug"/>
+				<Option output="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/ft_printf.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf.c"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf.c"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ft_printf.c/fast">
-				<Option output="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/ft_printf.c" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug"/>
+				<Option output="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/ft_printf.c" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
 					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf.c/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/venus/Desktop/Nastya/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_printf.c/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_c_type.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_c_type.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_i_d_types.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_i_d_types.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_itoa_x_X.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_itoa_x_X.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_p_type.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_p_type.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_parser.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_parser.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_percent_type.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_percent_type.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_printf.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_printf.h">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_printf.h">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_s_type.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_s_type.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_u_type.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_u_type.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/ft_x_X_types.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_x_X_types.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_atoi.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/libft/ft_atoi.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_itoa.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/libft/ft_itoa.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_strdup.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/libft/ft_strdup.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlcpy.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/libft/ft_strlcpy.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/libft/ft_strlen.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/libft/ft_strlen.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/main.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/main_chemelin.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/home/venus/Desktop/Nastya/ft_printf/CMakeLists.txt">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -1,7 +1,7 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_i_d_types.c                                     :+:      :+:    :+:   */
+/*   ft_i_types.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
@@ -71,7 +71,9 @@ char	*ft_i_d_types(t_parser *flags, va_list arg)
 {
 	int		number;
 	char	*str;
+	int     flag;
 
+    flag = flags->flag;
 	number = va_arg(arg, int);
 	if ((str = ft_itoa(number)) == NULL)
         return (NULL);
@@ -83,6 +85,10 @@ char	*ft_i_d_types(t_parser *flags, va_list arg)
 	if (flags->width <= ft_strlen(str))
         return (str);
 	else
-        str = ft_width(&str, flags->width, flags->flag, number);
+	{
+        if (flags->pr_for_s == 1 && flags->width > flags->precision && flags->flag != 0)
+            flag = 1;
+        str = ft_width(&str, flags->width, flag, number);
+    }
 	return (str);
 }

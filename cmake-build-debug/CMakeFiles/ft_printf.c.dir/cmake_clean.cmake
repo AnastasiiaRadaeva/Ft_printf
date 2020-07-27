@@ -14,7 +14,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.o"
   "CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.o"
   "CMakeFiles/ft_printf.c.dir/libft/ft_strlen.c.o"
-  "CMakeFiles/ft_printf.c.dir/main.c.o"
+  "CMakeFiles/ft_printf.c.dir/main_chemelin.c.o"
   "ft_printf.c"
   "ft_printf.c.pdb"
 )

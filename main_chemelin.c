@@ -1139,15 +1139,6 @@ TEST : test %-12i et %--2.4s %24s !\n, 0, NULL, "coco"
 	ft_printf("|%u|\n", 4294967296);
 	printf("|%u|\n", 4294967296);
 
-	ft_printf("|%#X|\n", 325235);
-	printf("|%#X|\n", 325235);
-	ft_printf("|%#x|\n", 325235);
-	printf("|%#x|\n", 325235);
-	ft_printf("|%+d|\n", 325235);
-	printf("|%+d|\n", 325235);
-
-	a1 = ft_printf("|%+*d|\n", 3547, 325235);
-	b1 = printf("|%+*d|\n", 3547, 325235);
 	printf("%d %d\n", a1, b1);
 }
 

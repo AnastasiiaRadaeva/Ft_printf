@@ -34,7 +34,7 @@ static char ft_converter(long int n, char x)
 		return (n + '0');
 	if (x == 'x')
 		return (n + 87);
-	else
+	else if (x == 'X')
 		return (n + 55);
 }
 

@@ -59,33 +59,19 @@ static char *ft_point(char *str)
 	return (next_str);
 }
 
-static char *ft_null(void)
-{
-	char *str;
-
-	if ((str = ft_strdup("(nil)")) == 0)
-		return (NULL);
-	return (str);
-}
-
 char	*ft_p_type(t_parser *flags, va_list arg)
 {
 	long int		number;
 	char	*str;
 
 	number = va_arg(arg, unsigned long int);
-	if (number == 0 || (void *) number == NULL)
-	{
-		if ((str = ft_null()))
-			return (str);
-		else
-			return (NULL);
-	}
 	if ((str = ft_itoa_x_X(number, 'x')) == NULL)
 		return (NULL);
 	if (flags->precision > ft_strlen(str))
 		if ((str = ft_precision(flags->precision, &str, ft_strlen(str))) == NULL)
 			return NULL;
+	if (number == 0 && flags->precision == 0)
+	    str[0] = '\0';
 	if ((str = ft_point(str)) == 0)
 		return (NULL);
 	if (flags->width <= ft_strlen(str))

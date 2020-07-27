@@ -81,15 +81,16 @@ static const char	*precision(size_t *len, t_parser *flags, const char *str,\
 	{
 		flags->pr_for_s = 1;
 		flags->precision = 0;
-		if (flags->flag != 0 && flags->flag % 2 == 0)
-			flags->flag = 1;
 		str++;
 		(*len)++;
 		if (*str == '*')
 		{
 			flags->precision = va_arg(arg, int);
 			if (flags->precision < 0)
-				flags->precision = 1;
+			{
+                flags->precision = 1;
+                flags->pr_for_s = 0;
+            }
 			str++;
 			(*len)++;
 		}

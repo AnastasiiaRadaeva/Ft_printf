@@ -52,10 +52,12 @@ static char     *ft_width(char **str, int width, size_t flag)
 
 char	*ft_u_type(t_parser *flags, va_list arg)
 {
-	unsigned long int number;
+	unsigned int number;
 	char *str;
+    int flag;
 
-	number = va_arg(arg, long int);
+    flag = flags->flag;
+	number = (unsigned int)va_arg(arg, int);
 	if (number < 0)
 		return (NULL);
 	if ((str = ft_itoa(number)) == NULL)
@@ -67,8 +69,12 @@ char	*ft_u_type(t_parser *flags, va_list arg)
 			return NULL;
 	if (flags->width <= ft_strlen(str))
 		return (str);
-	else
-		str = ft_width(&str, flags->width, flags->flag);
+    else
+    {
+        if (flags->pr_for_s == 1 && flags->width > flags->precision && flags->flag != 0)
+            flag = 1;
+        str = ft_width(&str, flags->width, flag);
+    }
 	return (str);
 }
 

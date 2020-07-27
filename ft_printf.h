@@ -37,6 +37,6 @@ char			*ft_u_type(t_parser *flags, va_list arg);
 char			*ft_c_type(t_parser *flags, va_list arg);
 char			*ft_p_type(t_parser *flags, va_list arg);
 char			*ft_s_type(t_parser *flags, va_list arg);
-char			*ft_percent_type(void);
+char			*ft_percent_type(t_parser *flags);
 
 #endif
