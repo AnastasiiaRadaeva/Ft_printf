@@ -6,16 +6,16 @@
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/05/07 16:48:02 by kbatwoma          #+#    #+#             */
-/*   Updated: 2020/05/24 23:16:01 by kbatwoma         ###   ########.fr       */
+/*   Updated: 2020/07/28 14:06:44 by kbatwoma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_size(long int n)
+static int		ft_size(long int n)
 {
-	int		count;
-	long int		copy;
+	int			count;
+	long int	copy;
 
 	count = 1;
 	if (n < 0)
@@ -45,7 +45,7 @@ static long int	ft_min(long int n, char *array)
 	return (n);
 }
 
-char		*ft_itoa(long int n)
+char			*ft_itoa(long int n)
 {
 	char	*array;
 	int		size;
