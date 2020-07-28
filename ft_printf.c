@@ -6,53 +6,39 @@
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/25 12:05:37 by kbatwoma          #+#    #+#             */
-/*   Updated: 2020/07/13 12:28:52 by kbatwoma         ###   ########.fr       */
+/*   Updated: 2020/07/28 13:41:43 by kbatwoma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 #include "libft/libft.h"
-# include <stdio.h>
 
-void    *ft_free(char **str)
+static int	check(int width)
 {
-    free(*str);
-    str = NULL;
-    return NULL;
+	if (width > 0)
+		return (width);
+	return (1);
 }
 
-int     ft_strset(char *str, char c, size_t n)
+static int	ft_ifperc(const char **str, t_parser *flags, va_list arg, \
+						char **insert)
 {
-    while (n != 0)
-    {
-        *(str + (n - 1)) = c;
-        n--;
-    }
-    return (0);
+	int	strlen;
+	int	length_str;
+
+	length_str = 0;
+	(*str)++;
+	ft_parser(*str, flags, arg);
+	if ((*insert = ft_insert(flags, arg)) == NULL)
+		return (-1);
+	strlen = (flags->type == 'c') ? check(flags->width) : ft_strlen(*insert);
+	length_str += write(1, *insert, strlen);
+	ft_free(insert);
+	(*str) += flags->length;
+	return (length_str);
 }
 
-char	*ft_insert(t_parser *flags, va_list arg)
-{
-	char *array;
-
-	array = NULL;
-	if (flags->type == 'c')
-		array = ft_c_type(flags, arg);
-	if (flags->type == 's')
-		array = ft_s_type(flags, arg);
-	if (flags->type == 'p')
-		array = ft_p_type(flags, arg);
-	if (flags->type == 'i' || flags->type == 'd')
-		array = ft_i_d_types(flags, arg);
-	if (flags->type == 'u')
-		array = ft_u_type(flags, arg);
-	if (flags->type == 'x' || flags->type == 'X')
-		array = ft_x_X_types(flags, arg, flags->type);
-	if (flags->type == '%')
-		array = ft_percent_type(flags);
-	return (array);
-}
-
-int	ft_printf(const char *str, ...)
+int			ft_printf(const char *str, ...)
 {
 	va_list		arg;
 	int			length_str;
@@ -66,15 +52,7 @@ int	ft_printf(const char *str, ...)
 	while (*str != '\0')
 	{
 		if (*str == '%')
-		{
-			str++;
-			ft_parser(str, &flags, arg);
-			if ((insert = ft_insert(&flags, arg)) == NULL)
-                return (-1);
-			length_str += write(1, insert, ft_strlen(insert));
-			free(insert);
-			str += flags.length;
-		}
+			length_str += ft_ifperc(&str, &flags, arg, &insert);
 		if (*str != '\0' && *str != '%')
 			length_str += write(1, str++, 1);
 	}

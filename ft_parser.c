@@ -6,7 +6,7 @@
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/10 13:23:10 by kbatwoma          #+#    #+#             */
-/*   Updated: 2020/07/11 09:59:11 by kbatwoma         ###   ########.fr       */
+/*   Updated: 2020/07/28 13:08:38 by kbatwoma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -88,9 +88,9 @@ static const char	*precision(size_t *len, t_parser *flags, const char *str,\
 			flags->precision = va_arg(arg, int);
 			if (flags->precision < 0)
 			{
-                flags->precision = 1;
-                flags->pr_for_s = 0;
-            }
+				flags->precision = 1;
+				flags->pr_for_s = 0;
+			}
 			str++;
 			(*len)++;
 		}

@@ -84,7 +84,7 @@
 		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_i_d_types.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
-		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_itoa_x_X.c">
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_itoa_x.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
 		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_p_type.c">
@@ -106,6 +106,9 @@
 			<Option target="ft_printf.c"/>
 		</Unit>
 		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_u_type.c">
+			<Option target="ft_printf.c"/>
+		</Unit>
+		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_utils.c">
 			<Option target="ft_printf.c"/>
 		</Unit>
 		<Unit filename="/Users/kbatwoma/Desktop/ft_printf/ft_x_X_types.c">

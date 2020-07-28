@@ -6,11 +6,11 @@
 #    By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/06/24 10:40:54 by kbatwoma          #+#    #+#              #
-#    Updated: 2020/07/27 09:14:16 by kbatwoma         ###   ########.fr        #
+#    Updated: 2020/07/28 13:53:30 by kbatwoma         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-CC = gcc
+CC = clang
 FLAGS = -Wall -Wextra -Werror
 
 LIBFT = libft.a
@@ -18,8 +18,9 @@ LIBFT_DIR = libft/
 
 NAME = libftprintf.a
 
-MAIN_SRC = ft_c_type.c ft_i_d_types.c ft_itoa_x_X.c ft_p_type.c ft_parser.c \
-			ft_percent_type.c ft_printf.c ft_s_type.c ft_u_type.c ft_x_X_types.c
+MAIN_SRC = ft_c_type.c ft_i_d_types.c ft_itoa_x.c ft_utils.c ft_p_type.c \
+			ft_parser.c ft_percent_type.c ft_printf.c ft_s_type.c ft_u_type.c \
+			ft_x_types.c
 MAIN_HEADER = ft_printf.h
 MAIN_OBJECTS = $(MAIN_SRC:.c=.o)
 

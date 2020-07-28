@@ -34,10 +34,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -83,18 +83,18 @@ CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kbatwoma/Desktop/ft_printf/ft_i_d_types.c -o CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.s
 
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o: CMakeFiles/ft_printf.c.dir/flags.make
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o: ../ft_itoa_x_X.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o   -c /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x_X.c
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o: CMakeFiles/ft_printf.c.dir/flags.make
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o: ../ft_itoa_x.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o   -c /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x.c
 
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x_X.c > CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.i
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x.c > CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.i
 
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x_X.c -o CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.s
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kbatwoma/Desktop/ft_printf/ft_itoa_x.c -o CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.s
 
 CMakeFiles/ft_printf.c.dir/ft_printf.c.o: CMakeFiles/ft_printf.c.dir/flags.make
 CMakeFiles/ft_printf.c.dir/ft_printf.c.o: ../ft_printf.c
@@ -265,11 +265,24 @@ CMakeFiles/ft_printf.c.dir/main_chemelin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.c.dir/main_chemelin.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kbatwoma/Desktop/ft_printf/main_chemelin.c -o CMakeFiles/ft_printf.c.dir/main_chemelin.c.s
 
+CMakeFiles/ft_printf.c.dir/ft_utils.c.o: CMakeFiles/ft_printf.c.dir/flags.make
+CMakeFiles/ft_printf.c.dir/ft_utils.c.o: ../ft_utils.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/ft_printf.c.dir/ft_utils.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/ft_printf.c.dir/ft_utils.c.o   -c /Users/kbatwoma/Desktop/ft_printf/ft_utils.c
+
+CMakeFiles/ft_printf.c.dir/ft_utils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ft_printf.c.dir/ft_utils.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/kbatwoma/Desktop/ft_printf/ft_utils.c > CMakeFiles/ft_printf.c.dir/ft_utils.c.i
+
+CMakeFiles/ft_printf.c.dir/ft_utils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ft_printf.c.dir/ft_utils.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/kbatwoma/Desktop/ft_printf/ft_utils.c -o CMakeFiles/ft_printf.c.dir/ft_utils.c.s
+
 # Object files for target ft_printf.c
 ft_printf_c_OBJECTS = \
 "CMakeFiles/ft_printf.c.dir/ft_c_type.c.o" \
 "CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o" \
-"CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o" \
+"CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o" \
 "CMakeFiles/ft_printf.c.dir/ft_printf.c.o" \
 "CMakeFiles/ft_printf.c.dir/ft_parser.c.o" \
 "CMakeFiles/ft_printf.c.dir/ft_percent_type.c.o" \
@@ -282,14 +295,15 @@ ft_printf_c_OBJECTS = \
 "CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.o" \
 "CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.o" \
 "CMakeFiles/ft_printf.c.dir/ft_p_type.c.o" \
-"CMakeFiles/ft_printf.c.dir/main_chemelin.c.o"
+"CMakeFiles/ft_printf.c.dir/main_chemelin.c.o" \
+"CMakeFiles/ft_printf.c.dir/ft_utils.c.o"
 
 # External object files for target ft_printf.c
 ft_printf_c_EXTERNAL_OBJECTS =
 
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_c_type.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o
-ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o
+ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_printf.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_parser.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_percent_type.c.o
@@ -303,9 +317,10 @@ ft_printf.c: CMakeFiles/ft_printf.c.dir/libft/ft_strlcpy.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/libft/ft_strdup.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_p_type.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/main_chemelin.c.o
+ft_printf.c: CMakeFiles/ft_printf.c.dir/ft_utils.c.o
 ft_printf.c: CMakeFiles/ft_printf.c.dir/build.make
 ft_printf.c: CMakeFiles/ft_printf.c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable ft_printf.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kbatwoma/Desktop/ft_printf/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable ft_printf.c"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ft_printf.c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

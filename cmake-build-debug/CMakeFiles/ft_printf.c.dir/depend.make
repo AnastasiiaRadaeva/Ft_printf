@@ -9,8 +9,8 @@ CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o: ../ft_i_d_types.c
 CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o: ../ft_printf.h
 CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.o: ../libft/libft.h
 
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o: ../ft_itoa_x_X.c
-CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o: ../ft_printf.h
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o: ../ft_itoa_x.c
+CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o: ../ft_printf.h
 
 CMakeFiles/ft_printf.c.dir/ft_p_type.c.o: ../ft_p_type.c
 CMakeFiles/ft_printf.c.dir/ft_p_type.c.o: ../ft_printf.h
@@ -35,6 +35,10 @@ CMakeFiles/ft_printf.c.dir/ft_s_type.c.o: ../libft/libft.h
 CMakeFiles/ft_printf.c.dir/ft_u_type.c.o: ../ft_printf.h
 CMakeFiles/ft_printf.c.dir/ft_u_type.c.o: ../ft_u_type.c
 CMakeFiles/ft_printf.c.dir/ft_u_type.c.o: ../libft/libft.h
+
+CMakeFiles/ft_printf.c.dir/ft_utils.c.o: ../ft_printf.h
+CMakeFiles/ft_printf.c.dir/ft_utils.c.o: ../ft_utils.c
+CMakeFiles/ft_printf.c.dir/ft_utils.c.o: ../libft/libft.h
 
 CMakeFiles/ft_printf.c.dir/ft_x_X_types.c.o: ../ft_printf.h
 CMakeFiles/ft_printf.c.dir/ft_x_X_types.c.o: ../ft_x_X_types.c

@@ -6,15 +6,16 @@
 /*   By: kbatwoma <kbatwoma@student.21-school.ru>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/07/25 13:54:28 by kbatwoma          #+#    #+#             */
-/*   Updated: 2020/07/25 13:54:39 by kbatwoma         ###   ########.fr       */
+/*   Updated: 2020/07/28 13:45:18 by kbatwoma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "ft_printf.h"
 #include "libft/libft.h"
 
-static char    *ft_precision(int precision, char **str, size_t len_str)
+static char	*ft_pr(int precision, char **str, size_t len_str)
 {
-	char    *next_str;
+	char	*next_str;
 
 	if ((next_str = malloc(sizeof(char) * (precision + 1))) == 0)
 		return (ft_free(str));
@@ -23,9 +24,9 @@ static char    *ft_precision(int precision, char **str, size_t len_str)
 	return (next_str);
 }
 
-static char     *ft_width(char **str, int width, size_t flag)
+static char	*ft_width(char **str, int width, size_t flag)
 {
-	char *next_str;
+	char	*next_str;
 
 	if ((next_str = malloc(sizeof(char) * (width + 1))) == 0)
 		return (ft_free(str));
@@ -39,29 +40,29 @@ static char     *ft_width(char **str, int width, size_t flag)
 	else
 	{
 		ft_strlcpy((next_str + (width - ft_strlen(*str))), *str, \
-                    ft_strlen(*str) + 1);
-        if (flag == 1)
-            ft_strset(next_str, ' ', width - ft_strlen(*str));
-        else
-            ft_strset(next_str, '0', width - ft_strlen(*str));
+					ft_strlen(*str) + 1);
+		if (flag == 1)
+			ft_strset(next_str, ' ', width - ft_strlen(*str));
+		else
+			ft_strset(next_str, '0', width - ft_strlen(*str));
 	}
 	ft_free(str);
 	return (next_str);
 }
 
-char	*ft_s_type(t_parser *flags, va_list arg)
+char		*ft_s_type(t_parser *flags, va_list arg)
 {
 	char	*input;
 	char	*str;
 
 	input = va_arg(arg, char *);
 	if (input == NULL)
-			input = "(null)";
+		input = "(null)";
 	if ((str = ft_strdup(input)) == 0)
 		return (NULL);
 	if (flags->precision < ft_strlen(str) && flags->pr_for_s == 1)
-		if ((str = ft_precision(flags->precision, &str, ft_strlen(str))) == NULL)
-			return NULL;
+		if ((str = ft_pr(flags->precision, &str, ft_strlen(str))) == NULL)
+			return (NULL);
 	if (flags->width <= ft_strlen(str))
 		return (str);
 	else

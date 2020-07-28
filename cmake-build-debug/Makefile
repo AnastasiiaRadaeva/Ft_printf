@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
+CMAKE_COMMAND = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
+RM = /private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/kbatwoma/Desktop/ft_printf/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/816759C1-CB12-41AD-AC5E-E4E63D141B53/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/private/var/folders/zz/zyxvpxvq6csfxvn_n0001f6h000bjm/T/AppTranslocation/C85ABBBC-C337-4D7A-A9A2-B647634F0674/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -177,32 +177,32 @@ ft_i_d_types.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_i_d_types.c.s
 .PHONY : ft_i_d_types.c.s
 
-ft_itoa_x_X.o: ft_itoa_x_X.c.o
+ft_itoa_x.o: ft_itoa_x.c.o
 
-.PHONY : ft_itoa_x_X.o
+.PHONY : ft_itoa_x.o
 
 # target to build an object file
-ft_itoa_x_X.c.o:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.o
-.PHONY : ft_itoa_x_X.c.o
+ft_itoa_x.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.o
+.PHONY : ft_itoa_x.c.o
 
-ft_itoa_x_X.i: ft_itoa_x_X.c.i
+ft_itoa_x.i: ft_itoa_x.c.i
 
-.PHONY : ft_itoa_x_X.i
+.PHONY : ft_itoa_x.i
 
 # target to preprocess a source file
-ft_itoa_x_X.c.i:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.i
-.PHONY : ft_itoa_x_X.c.i
+ft_itoa_x.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.i
+.PHONY : ft_itoa_x.c.i
 
-ft_itoa_x_X.s: ft_itoa_x_X.c.s
+ft_itoa_x.s: ft_itoa_x.c.s
 
-.PHONY : ft_itoa_x_X.s
+.PHONY : ft_itoa_x.s
 
 # target to generate assembly for a file
-ft_itoa_x_X.c.s:
-	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x_X.c.s
-.PHONY : ft_itoa_x_X.c.s
+ft_itoa_x.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_itoa_x.c.s
+.PHONY : ft_itoa_x.c.s
 
 ft_p_type.o: ft_p_type.c.o
 
@@ -365,6 +365,33 @@ ft_u_type.s: ft_u_type.c.s
 ft_u_type.c.s:
 	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_u_type.c.s
 .PHONY : ft_u_type.c.s
+
+ft_utils.o: ft_utils.c.o
+
+.PHONY : ft_utils.o
+
+# target to build an object file
+ft_utils.c.o:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_utils.c.o
+.PHONY : ft_utils.c.o
+
+ft_utils.i: ft_utils.c.i
+
+.PHONY : ft_utils.i
+
+# target to preprocess a source file
+ft_utils.c.i:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_utils.c.i
+.PHONY : ft_utils.c.i
+
+ft_utils.s: ft_utils.c.s
+
+.PHONY : ft_utils.s
+
+# target to generate assembly for a file
+ft_utils.c.s:
+	$(MAKE) -f CMakeFiles/ft_printf.c.dir/build.make CMakeFiles/ft_printf.c.dir/ft_utils.c.s
+.PHONY : ft_utils.c.s
 
 ft_x_X_types.o: ft_x_X_types.c.o
 
@@ -570,9 +597,9 @@ help:
 	@echo "... ft_i_d_types.o"
 	@echo "... ft_i_d_types.i"
 	@echo "... ft_i_d_types.s"
-	@echo "... ft_itoa_x_X.o"
-	@echo "... ft_itoa_x_X.i"
-	@echo "... ft_itoa_x_X.s"
+	@echo "... ft_itoa_x.o"
+	@echo "... ft_itoa_x.i"
+	@echo "... ft_itoa_x.s"
 	@echo "... ft_p_type.o"
 	@echo "... ft_p_type.i"
 	@echo "... ft_p_type.s"
@@ -591,6 +618,9 @@ help:
 	@echo "... ft_u_type.o"
 	@echo "... ft_u_type.i"
 	@echo "... ft_u_type.s"
+	@echo "... ft_utils.o"
+	@echo "... ft_utils.i"
+	@echo "... ft_utils.s"
 	@echo "... ft_x_X_types.o"
 	@echo "... ft_x_X_types.i"
 	@echo "... ft_x_X_types.s"
