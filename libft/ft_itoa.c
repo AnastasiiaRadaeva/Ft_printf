@@ -34,12 +34,9 @@ static int		ft_size(long int n)
 
 static long int	ft_min(long int n, char *array)
 {
-	int		i;
-
-	i = 0;
 	if (n < 0)
 	{
-		array[i] = '-';
+		array[0] = '-';
 		n = -n;
 	}
 	return (n);
